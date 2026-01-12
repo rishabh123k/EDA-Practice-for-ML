@@ -1,27 +1,21 @@
-## Dataset Information
+1) Problem statement
+
+This project understands how the student's performance (test scores) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch and Test preparation course.
 
 
-The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult: http://www.vinhoverde.pt/en/ or the reference [Cortez et al., 2009].  Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
+2) Data Collection
 
-These datasets can be viewed as classification or regression tasks.  The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods.
+Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+The data consists of 8 column and 1000 rows.
 
 
+3) Dataset Information
 
-## Attribute Information
-For more information, read [Cortez et al., 2009].
-Input variables (based on physicochemical tests):
-   1. - fixed acidity
-   2. - volatile acidity
-   3. - citric acid
-   4. - residual sugar
-   5. - chlorides
-   6. - free sulfur dioxide
-   7. - total sulfur dioxide
-   8. - density
-   9. - pH
-   10. - sulphates
-   11. - alcohol
-   
-Output variable (based on sensory data): 
-
-   12. - quality (score between 0 and 10)
+1. gender : sex of students -> (Male/female)
+2. race/ethnicity : ethnicity of students -> (Group A, B,C, D,E)
+3. parental level of education : parents' final education ->(bachelor's degree,some college,master's degree,associate's degree,high school)
+4. lunch : having lunch before test (standard or free/reduced)
+5. test preparation course : complete or not complete before test
+6. math score
+7. reading score
+8. writing score
